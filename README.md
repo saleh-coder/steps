@@ -1,77 +1,72 @@
 # Steps
 
-## Overview
+## 📘 Overview
 
-A React application demonstrating a multi-step navigation component. This project focuses on handling component state, event handling, and conditional rendering in React.
+This project is a simple multi-step React component developed as part of a React tutorial series. It demonstrates key React concepts such as component state management, conditional rendering, and event handling.
 
-## Features
+## ✨ Features
 
-- Static multi-step component layout.
-- Step indicators with dynamic active state styling.
-- Navigation buttons ("Previous" and "Next") to traverse steps (to be implemented).
-- Clean and modular React component structure.
+- Three-step interactive UI
+- Step indicators with dynamic active state
+- Navigation using "Previous" and "Next" buttons
+- Show/hide logic with a toggle button
+- Clean and modular component design
 
-## Technologies
+## 🚀 Technologies Used
 
-- React 18 (via Create React App v5)
-- JSX for component templating
-- CSS modules for styling
+- [React 18](https://reactjs.org/) (via Create React App)
+- JSX for UI templating
+- CSS for basic styling
+- Functional components with React Hooks (`useState`)
 
-## Getting Started
+## ⚙️ Getting Started
 
 ### Prerequisites
 
-- Node.js (v14+ recommended)
-- npm or yarn package manager
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or newer)
+- npm or yarn
 
 ### Installation
 
-1. Clone the repository:
+# Clone the repository
 
-   ```bash
-   git clone git@github.com:saleh-coder/steps.git
-   ```
+git clone https://github.com/saleh-coder/steps.git
 
-2. Navigate to the project folder:
-   ```bash
-   cd steps
-   ```
-3. Install dependencies:
+# Navigate into the project folder
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+cd steps
 
-4. Start the development server:
+# Install dependencies with npm
 
-   ```bash
-   npm start
-   # or
-   yarn start
-   ```
+npm install
 
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
+# Start the development server with npm
 
-## Project Structure
+npm start
 
-- `src/` — Contains React components and CSS modules.
-- `public/` — Contains the static HTML template and assets.
-- `README.md` — Project documentation.
-- `package.json` — Project metadata and dependencies.
+# OR, install dependencies with yarn
 
-## Future Improvements
+# yarn install
 
-- Implement functional navigation for "Previous" and "Next" buttons.
-- Add animations and transitions between steps.
-- Enhance accessibility compliance.
-- Integrate unit and integration testing.
+# Start the development server with yarn
 
-## Contribution
+# yarn start
 
-This is a personal learning project. Contributions are welcome via pull requests or issues.
+🧠 Learning Goals
+This project is part of a guided learning process to practice:
 
-## License
+Managing component state with React Hooks
 
-This project is provided as-is for educational purposes.
+Structuring components using JSX
+
+Handling user events
+
+Dynamically applying styles based on state
+
+🤝 Contribution
+This project was created as part of a learning journey with React. Contributions are welcome via pull requests or issues on the GitHub repository.
+
+📄 License
+This project is intended for educational purposes and is available for use and modification under the terms of an open educational license.
